@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #6E6C70;
+    color: #FFFFFF;
+}
+
+h1{
+    color: rgb(222,245,46);
+    font-family: oswald;
+    font-size: 80px;
+    text-decoration-line: 1
+}
+
+a{
+    text-decoration: none;
+}
+
+.quotes{
+    background-color: #555353;
+    color: #F0F0F0;
+    font-family: Arial;
+    border: 1px solid #FFA153;
+    padding: 12px;
+    margin-bottom: 110px;
+    margin-left: 10%;
+    width:300px;
+    margin-right: 200px;
+    display:
+}
+
+.quotes a {
+    color:#FFA153;
+}
