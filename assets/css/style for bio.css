@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: rgb(212, 126, 56);
+    color: rgb(231, 141, 73);
     font-family: oswald;
     font-size: 80px;
     text-decoration-line: 1
@@ -27,10 +27,10 @@ a {
 
     p {
     color: rgb(94, 94, 94);
-    font-family: abolition;
-    font-size: 35px;
+    font-family: Avenir Next;
+    font-size: 18px;
     text-decoration-line: 1;
-    border: 1px solid #FFA153;
+    border: 1px solid #B3B3B3;
     padding: 12px;
     margin-bottom: 110px;
     margin-left: 10%;
