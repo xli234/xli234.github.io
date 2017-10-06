@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: rgb(212, 126, 56);
+    font-family: oswald;
+    font-size: 80px;
+    text-decoration-line: 1
+}
+
+h2 {
+    color: rgb(94, 94, 94);
+    font-family: abolition;
+    font-size: 35px;
+    text-decoration-line: 1
+}
+
+a {
+    text-decoration: none;
+}
+
+    p {
+    color: rgb(94, 94, 94);
+    font-family: abolition;
+    font-size: 35px;
+    text-decoration-line: 1;
+    border: 1px solid #FFA153;
+    padding: 12px;
+    margin-bottom: 110px;
+    margin-left: 10%;
+    width: 300px;
+    margin-right: 200px;
+    display:
+
+
+quotes {
+    background-color: #555353;
+    color: #383838;
+    font-family: Arial;
+    border: 1px solid #FFA153;
+    padding: 12px;
+    margin-bottom: 110px;
+    margin-left: 10%;
+    width: 300px;
+    margin-right: 200px;
+    display:
+}
+
+.quotes a {
+    color: #FFA153;
+}
