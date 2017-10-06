@@ -20,7 +20,12 @@ h2 {
     font-size: 35px;
     text-decoration-line: 1
 }
-
+h3 {
+    color: rgb(94, 94, 94);
+    font-family: 华文细黑 Regular;
+    font-size: 15px;
+    text-decoration-line: 1
+}
 a {
     text-decoration: none;
 }
@@ -31,10 +36,10 @@ a {
     font-size: 18px;
     text-decoration-line: 1;
     border: 1px solid #B3B3B3;
-    padding: 12px;
+    padding: 27px;
     margin-bottom: 110px;
     margin-left: 10%;
-    width: 300px;
+    width: 800px;
     margin-right: 200px;
     display:
 
