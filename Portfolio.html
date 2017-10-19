@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<h1>Xuanbai's Portfolio</h1>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,41 +8,60 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 
-  <style>
-    .box {
-        border: 6px solid #2E2E2E;
-        height: 200px;
-    }
-  </style>
+    <style type="text/css">
+        #Layer1 {
+            position: absolute;
+            /* 下面两条用于水平居中 */
+            left: 80%;
+            margin-left: -100px;
+            /* 宽度的1半 */
+            /* 下面两条用于垂直居中 */
+            top: 90%;
+            margin-top: -58px;
+            /* 高度的1半 */
+            width: 200px;
+            height: 115px;
+            z-index: 1;
+        }
+    </style>
 </head>
-<h3>Right now, I'm focusing on three major direction: industrial design,
-    interaction design, service design
-</h3>
 <body>
-
-    <div class="container-fluid">
-
-      <div class="row">
-            <div class="col-3 col-md-3 project">
-             <h2>Industrial design<a href="./Washspace.html"></h2>
-             <img src="C:\Users\lixuanbai\Desktop\2017 fall\coding class\xli234.github.io\_design\wash1.jpg" alt="" class="img-fluid">
-             <p>This project was my graduation project in 2012. And with this project I won 3 awards (Excellent graduation design of academy,  Excellent graduation Thesis of academy and Excellent graduation Thesis of Tsinghua University).  It was a intence training and during the process, how to figure out the feasible solution as soon as possible was very important. Because the bathroom is made for rural area, I could no longer use the design elements of hi-technology or sci-fi. So how to define the form style of a rural area product was also a challenge to me. To me, the most successful part was by using resource of rural area and related techology, I created a bathroom which is suitable for the country-side and local elderly and thus embody the rural area topic. In that way, I connect the user’s demand, using environment and the product together, which proof that I have developed some basic design thinking.</p>
-            </div>
-            <div class="col-3 col-md-3 project">
-             <h2>Interaction design</h2>
-             <img src="C:\Users\lixuanbai\Desktop\2017 fall\coding class\xli234.github.io\_design\OLED1.jpg" alt="" class="img-fluid">
-             <p>This project in cooperation with Tsinghua University, B449 studio BOE Group, aims to use industrial design method, starting from the user-oriented, flexible display innovation seek future application and conceptual design, layout advance flexible display patent applications, and strengthen the perception research and market analysis for the user to reference the direction of future development of flexible technology. The entire project took six months, more than ten sets harvest patent, mock-5 sets, a functional prototype. This project on the future development of OLED display products play a reference role.</p>
-            </div>
-            <div class="col-3 col-md-3 project">
-             <h2>Service design</h2>
-             <img src="C:\Users\lixuanbai\Desktop\2017 fall\coding class\xli234.github.io\_design\SERVICE1.jpg" alt="" class="img-fluid">
-             <p>I really like this project because it make use of data and it is still on its analysis part.</p>
-            </div>
+    <div class="container">
+        <div class="row">
+            <h1>Xuanbai's Portfolio</h1>
         </div>
 
+        <div class="row">
+            <h6>Right now, I'm focusing on three major direction: industrial design, interaction design, service design</h6>
+        </div>
+
+        <div class="mx-auto" style="width: 200px;">
+            Centered element
+        </div>
+
+        <div class="row">
+            <div class="col-5 col-md-3 project">
+                <h4>Industrial design</h4>
+                <a href="./Washspace.html"><img src="assets/img/wash1.jpg" alt="" class="img-fluid"></a>
+                <p>This project was my graduation project in 2012. </p>
+            </div>
+            <div class="col-5 col-md-3 project">
+                <h4>Interaction design</h4>
+                <a href="./oled1.html"><img src="assets/img/OLED1.jpg" alt="" class="img-fluid"></a>
+                <p>This project in cooperation with Tsinghua University, B449 studio BOE Group.</p>
+            </div>
+            <div class="col-5 col-md-3 project">
+                <h4>Service design</h4>
+                <a href="./service1.html"><img src="assets/img/SERVICE1.jpg" alt="" class="img-fluid"></a>
+                <p>I really like this project because it make use of data and it is still on its analysis part.</p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="quotes"><em><a href="./index.html">BACK</a></em> </p>
+        </div>
     </div>
 
 
-    <p class="quotes"><em><a href="./index.html">BACK</a></em> </p>
+
 </body>
 </html>
